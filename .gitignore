@@ -1,0 +1,20 @@
+
+
+
+.bundle
+
+# Ignore the default SQLite database.
+db/*.sqlite3*
+db/*.sqlite3-journal
+
+log/*.log
+*.log
+
+tmp/**/*
+tmp/*
+Gemfile.lock
+doc/api
+doc/app
+*.swp
+* ˜
+.DS_Store
